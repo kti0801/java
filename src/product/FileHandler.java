@@ -30,7 +30,7 @@ public class FileHandler {
     // 파일에서 상품 정보를 읽어오는 메서드
     // fileName: 읽어올 파일 경로
     private static List<String> readFromFile(String fileName) {
-        List<String> products = new LinkedList<>();
+        List<String> products = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = reader.readLine()) != null) {
