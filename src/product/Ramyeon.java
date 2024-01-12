@@ -15,7 +15,7 @@ public class Ramyeon implements Product{
     }
 
     // 주석 7: 컬렉션 프레임워크
-    // 반찬 제품 정보를 담는 HashSet
+    // 라면 제품 정보를 담는 HashSet
     Set<String> set = new HashSet<>();
 
     // 생성자
