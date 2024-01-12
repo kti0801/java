@@ -13,7 +13,7 @@ public class Drink implements Product{
         List<String> products = FileHandler.readDrink();
         set = new HashSet<>(products);
     }
-    // 7. 컬렉션 프레임워크
+    // 주석 7: 컬렉션 프레임워크
     // 음료 제품 정보를 담는 HashSet
     Set<String> set = new HashSet<>();
 

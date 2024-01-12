@@ -1,6 +1,6 @@
 package product;
 
-// 3. 인터페이스
+// 주석 3: 인터페이스
 public interface Product {
     // 제품을 추가함
     public boolean setProduct(String productname);

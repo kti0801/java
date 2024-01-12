@@ -9,7 +9,9 @@ public class FileHandler {
     private static final String DRINK = "./data/drink_data.txt";
     private static final String SIDEDISH = "./data/sidedish_data.txt";
 
-    // 4. 예외 처리 7.컬렉션 프레임워크(리스트) 8. 파일 입/출력 사용(문자 기반 스트림)
+    // 주석 4: 예외 처리 주제
+    // 주석 7: 컬렉션 프레임워크(리스트)
+    // 주석 8: 파일 입/출력 사용(문자 기반 스트림)
 
     // 제품 정보를 파일에 쓰는 메서드
     // fileName: 쓰게될 파일 경로, products: 쓰려는 상품 정보 리스트

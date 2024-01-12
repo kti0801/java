@@ -43,7 +43,7 @@ public class ChangeProduct {
         String menuName;
 
 
-        // 4. 예외처리
+        // 주석 4: 예외처리
         while (true) {
             // 목록의 번호를 입력받는다.
             // int가 아닌 자료형이 입력되면 예외처리한다.

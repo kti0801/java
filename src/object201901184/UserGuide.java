@@ -1,8 +1,6 @@
 package object201901184;
 
-import java.util.Scanner;
-
-// 2. 클래스 상속(inheritance)
+// 주석 2: 클래스 상속(inheritance)
 public class UserGuide extends MainMenu{
     @Override
     public void openMenu() {

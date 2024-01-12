@@ -14,7 +14,7 @@ public class SideDish implements Product{
         set = new HashSet<>(products);
     }
 
-    // 7. 컬렉션 프레임워크
+    // 주석 7: 컬렉션 프레임워크
     // 반찬 제품 정보를 담는 HashSet
     Set<String> set = new HashSet<>();
 

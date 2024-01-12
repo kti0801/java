@@ -2,18 +2,16 @@ package product;
 
 import java.util.Scanner;
 public class Productmenu {
-    // 6. 참조 타입(배열)
+    // 주석 6: 참조 타입(배열)
     // 제품의 종류가 들어있는 배열
     public String productType[] = {"Ramyeon", "Drink", "SideDish"};
 
-    // 5. 다형성(인터페이스)
+    // 주석 5: 다형성(인터페이스)
     // TypeOfProduct에서 요청한 제품종류 제품이름을 출력한다.
     public void print(Product product) {
         product.printProduct();
     }
 
-
-    // 5. 다형성
     // TypeOfProduct에서 요청한 제품종류에 제품이름을 추가 또는 삭제한다.
     public void setProduct(Product product) {
 
