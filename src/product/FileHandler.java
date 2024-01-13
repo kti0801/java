@@ -9,7 +9,6 @@ public class FileHandler {
     private static final String DRINK = "./data/drink_data.txt";
     private static final String SIDEDISH = "./data/sidedish_data.txt";
 
-    // 주석 4: 예외 처리 주제
     // 주석 7: 컬렉션 프레임워크(리스트)
     // 주석 8: 파일 입/출력 사용(문자 기반 스트림)
 
